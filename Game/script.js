@@ -42,7 +42,7 @@ function startGame() {
             score++;
             updateScore();
         }
-    }, 10);
+    }, 5);
 
     // Scoreboard, Hintergrund und Spieler werden sichtbar, Punktezahl ist 0 und Punktestand wird Aktualisiert.
     player.style.backgroundImage = statusArray[0];
